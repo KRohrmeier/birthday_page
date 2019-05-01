@@ -16,6 +16,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
         <link href="birthday.css" rel="stylesheet" type="text/css" />
+        <script src="birthday.js"></script>
     </head>
 
     <body>
@@ -25,24 +26,38 @@
             </div>
 
             <div class="row mb-5">
-                <div class="col-9 mb-3">
+                <div class="col-sm-9 mb-3">
                     <p class="display-4">
                         Hope your year is filled with fun, dancing, and a few
                         surprises!
                     </p>
-                    <br />
-                    <p>
-                        (If not a band of dancing dinos, then perhaps other
-                        surprising excitements!)
-                    </p>
                 </div>
-                <div class="col-3">
-                    <img src="dino-party.jpg" class="float-right" />
+                <div class="col-sm-3">
+                    <img
+                        src="dino-party.jpg"
+                        alt="dino wearing party hat"
+                        class="float-right"
+                    />
+                </div>
+            </div>
+            <div id="outerGiftDiv" class="row">
+                <div id="giftDiv" class="col-sm-6 mb-3 p-5">
+                    <img
+                        id="giftbox"
+                        src="giftbox-orangegreen.jpg"
+                        alt="a wrapped gift with green bow"
+                    />
+                </div>
+                <div id="suggestionDiv" class="col-sm-6">
+                    <p id="suggestion">
+                        Hmmm, something seems to be in that present...
+                        <br /><br />
+                        Maybe click to open it.
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6"><img src="dancing_dinos.gif" /></div>
-                <div class="col-6">
+                <div class="col-sm-12">
                     <h1>
                         <small
                             >Love,<br />Tante Kathi, Uncle Zack, and
