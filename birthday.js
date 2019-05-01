@@ -6,7 +6,7 @@ const surprise = () => {
     let oldImage = document.querySelector("#giftbox");
     let giftDiv = document.querySelector("#giftDiv");
     let newImage = document.createElement("img");
-    giftDiv.setAttribute("class", "col-sm-6 mb-3 p-3");
+    giftDiv.setAttribute("class", "col-sm-6 mb-3 p-2");
     newImage.setAttribute("src", "dancing_dinos.gif");
     newImage.setAttribute("alt", "three dinos dancing");
     giftDiv.replaceChild(newImage, oldImage);
