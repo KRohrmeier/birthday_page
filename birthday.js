@@ -9,6 +9,7 @@ const surprise = () => {
     giftDiv.setAttribute("class", "col-sm-6 mb-3 p-2");
     newImage.setAttribute("src", "dancing_dinos.gif");
     newImage.setAttribute("alt", "three dinos dancing");
+    newImage.setAttribute("class", "img-fluid");
     giftDiv.replaceChild(newImage, oldImage);
 
     let suggestionDiv = document.querySelector("#suggestionDiv");
