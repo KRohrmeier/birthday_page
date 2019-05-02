@@ -1,11 +1,26 @@
 html,
 body {
     height: 100%;
+    width: 100%;
 }
 
 body {
     background: linear-gradient(70deg, #fdce20, #eaf8ea, #c8e0ea);
 }
+
+canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* #title {
+    position: absolute;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+} */
 
 #giftDiv {
     background-color: #ffffff;
